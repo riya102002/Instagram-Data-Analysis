@@ -1,13 +1,13 @@
-# 📊 Instagram Data Analysis (SQL Project)
+#  Instagram Data Analysis (SQL Project)
 
-## 📌 Overview
+##  Overview
 This project analyzes Instagram user and post data to generate marketing insights and investor metrics using SQL.  
 The dataset includes information about users, posts, likes, and hashtags.  
 All queries are written in SQL and focus on answering real-world business questions.
 
 ---
 
-## 🗂 Dataset Description
+##  Dataset Description
 - **users.csv** – user_id, username, join_date, email  
 - **posts.csv** – post_id, user_id, post_date, caption, likes_count  
 - **likes.csv** – like_id, user_id, post_id, like_date  
@@ -15,7 +15,7 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ---
 
-## 📌 SQL Tasks
+##  SQL Tasks
 
 ### **A) Marketing Analysis**
 1. **Loyal User Reward**  
@@ -40,7 +40,7 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ---
 
-### **B) Investor Metrics**
+### Investor Metrics**
 1. **User Engagement**  
    - Calculate the average number of posts per user and total posts per total users.  
    - **File:** `queries/investor_metrics/user_engagement.sql`
@@ -51,7 +51,7 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ---
 
-## 🛠 SQL Skills Demonstrated
+##  SQL Skills Demonstrated
 - **Data Aggregation**: `COUNT()`, `AVG()`, `SUM()`  
 - **Joins**: `INNER JOIN`, `LEFT JOIN`  
 - **Filtering**: `WHERE`, `HAVING`  
@@ -61,14 +61,14 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Import the dataset into your SQL database (MySQL, PostgreSQL, etc.).
 2. Run the `.sql` files in `/queries`.
 3. View generated results in `/results`.
 
 ---
 
-## 👩‍💻 Author
+##  Author
 **Riya Kesharwani**  
 📎 [LinkedIn Profile](https://www.linkedin.com/in/riyakesharwani/)  
 📎 [GitHub Profile](https://github.com/riya102002)
