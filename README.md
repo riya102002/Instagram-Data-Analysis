@@ -9,13 +9,25 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ## 📂 File Structure
 instagram-data-analysis-sql/
-│-- README.md
-│-- database/ # SQL file containing Instagram database
-│-- queries/ # SQL queries grouped by business use case
-│ ├── marketing_analysis/
-│ └── investor_metrics/
-│-- results/ # Output of queries in CSV format
-
+│
+├── README.md                       # Project documentation
+│
+├── database/                       # Database files or SQL dump
+│   └── database_ig.sql             # Full database creation & data insert script
+│
+├── queries/                         # SQL queries for tasks
+│   ├── marketing_analysis/           # Marketing-related SQL tasks
+│   │   ├── loyal_user_reward.sql              # Top 5 oldest users
+│   │   ├── inactive_user_engagement.sql       # Users with no posts
+│   │   ├── contest_winner_declaration.sql     # Most liked photo winner
+│   │   ├── hashtag_research.sql               # Top 5 hashtags
+│   │   └── ad_campaign_launch.sql              # Best day for ads
+│   │
+│   └── investor_metrics/             # Investor-related SQL tasks
+│       ├── user_engagement.sql                # Avg posts per user
+│       └── bots_fake_accounts.sql              # Potential bot detection
+│
+└── results                          # Output of queries
 
 ---
 
