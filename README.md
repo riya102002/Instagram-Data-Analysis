@@ -1,4 +1,4 @@
-#  Instagram Data Analysis (SQL Project)
+#  Instagram User Analytics (SQL Project)
 
 ##  Overview
 This project analyzes Instagram user and post data to generate marketing insights and investor metrics using SQL.  
@@ -7,12 +7,8 @@ All queries are written in SQL and focus on answering real-world business questi
 
 ---
 
-##  Dataset Description
-- **users.csv** – user_id, username, join_date, email  
-- **posts.csv** – post_id, user_id, post_date, caption, likes_count  
-- **likes.csv** – like_id, user_id, post_id, like_date  
-- **hashtags.csv** – hashtag_id, post_id, hashtag  
-
+##  Database Description
+- **instagram_db.sql** – Full database creation & data insert script
 ---
 
 ##  SQL Tasks
