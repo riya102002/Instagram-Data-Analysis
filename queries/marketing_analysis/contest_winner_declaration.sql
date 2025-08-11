@@ -1,0 +1,1 @@
+SELECT U.username, P.id AS photo_id, COUNT(L.photo_id) AS total_likes FROM users AS U JOIN photos AS P ON U.id = P.user_id JOIN likes AS L ON P.id = L.photo_id GROUP BY P.id, U.username ORDER BY total_likes DESC LIMIT 1;
